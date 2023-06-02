@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Morros Devops</string>
+
+    <string name="title_register">Registrarse</string>
+    <string name="title_login"><!--Iniciar Sesión-->Login</string>
+    <string name="title_recuperar">¿Se te olvidó tu contraseña?</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_nueva_password">Nueva Contraseña</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_mobile_number">Número de teléfono</string>
+    <string name="button_forgot_password">¿Se te olvidó tu contraseña?</string>
+    <string name="button_login">¿Ya tienes una cuenta? Iniciar Sesión</string>
+    <string name="button_signup">Registrarse</string>
+    <string name="button_cerrar">Cerrar Sesión</string>
+    <string name="text_recuperar_password">
+        No hay problema. Simplemente déjenos saber su dirección
+        de correo electrónico y le enviaremos un Nuevo Password.
+    </string>
+    <string name="dajelo_blanco">Déjalo en blanco para no cambiarlo</string>
+    <string name="min_8_caracteres">Debe tener al menos 8 caracteres</string>
+    <string name="min_4_caracteres">Debe tener al menos 4 caracteres</string>
+    <string name="error_email">Debe ser un Email valido</string>
+    <string name="error_telefono">Debe ser un Teléfono valido</string>
+    <string name="error_email_registrado">Email ya Registrado</string>
+    <string name="ingrese_password">Ingrese Password</string>
+    <string name="ingrese_email">Ingrese un Email</string>
+    <string name="ingrese_nombre">Ingrese un Nombre</string>
+    <string name="ingrese_telefono">Ingrese un Telefono</string>
+    <string name="no_internet">Verifique el estado de su conexión y vuelva a intentarlo</string>
+    <string name="email_send">¡Le hemos enviado por correo electrónico su nueva contraseña!</string>
+</resources>

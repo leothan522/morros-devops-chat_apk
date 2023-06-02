@@ -4,8 +4,8 @@ import android.content.Context
 
 class Prefs( val context: Context) {
 
-    val SHARED_DB = "DemoAppLeothan522"
-    val SHARED_LOGIN = "prueba"
+    val SHARED_DB = "MorrosDevopsLeothan522"
+    val SHARED_LOGIN = "morrosdevops"
     val SHARED_ID = "id"
     val SHARED_EMAIL = "email"
     val SHARED_NAME = "name"

@@ -126,6 +126,7 @@ class RecuperarActivity : AppCompatActivity() {
         finish()
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         //super.onBackPressed()
         startActivity(Intent(this, LoginActivity::class.java))

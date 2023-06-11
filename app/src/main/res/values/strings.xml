@@ -16,7 +16,7 @@
     <string name="button_cerrar">Cerrar Sesión</string>
     <string name="text_recuperar_password">
         No hay problema. Simplemente déjenos saber su dirección
-        de correo electrónico y le enviaremos un Nuevo Password.
+        de correo electrónico y le enviaremos un enlace para restablecerla.
     </string>
     <string name="dajelo_blanco">Déjalo en blanco para no cambiarlo</string>
     <string name="min_8_caracteres">Debe tener al menos 8 caracteres</string>
@@ -29,7 +29,8 @@
     <string name="ingrese_nombre">Ingrese un Nombre</string>
     <string name="ingrese_telefono">Ingrese un Telefono</string>
     <string name="no_internet">Verifique el estado de su conexión y vuelva a intentarlo</string>
-    <string name="email_send">¡Le hemos enviado por correo electrónico su nueva contraseña!</string>
+    <string name="email_tilte">Correo Enviado</string>
+    <string name="email_message">¡Le hemos enviado por correo electrónico el enlace para restablecer su contraseña!</string>
 
     <!--Notificaciones-->
     <string name="notification_channel_name">Notificaciones</string>

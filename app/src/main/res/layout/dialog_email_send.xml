@@ -37,7 +37,7 @@
                 android:textSize="22sp"
                 android:textColor="@color/dialog_text_title"
                 android:textStyle="bold"
-                android:text="Contraseña Enviada"
+                android:text="@string/email_tilte"
                 android:layout_marginTop="10dp"/>
 
             <TextView
@@ -47,7 +47,7 @@
                 android:textStyle="normal"
                 android:textColor="@color/dialog_text_message"
                 android:textSize="14dp"
-                android:text="@string/email_send"
+                android:text="@string/email_message"
                 android:textAlignment="center"/>
 
             <Button

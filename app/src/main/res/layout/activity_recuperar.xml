@@ -33,7 +33,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="65dp"
+        android:layout_marginEnd="35dp"
         android:src="@drawable/logo_new_transparente"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

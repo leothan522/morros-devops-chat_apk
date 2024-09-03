@@ -30,9 +30,9 @@
 
     <ImageView
         android:id="@+id/iv_logo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="25dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="35dp"
         android:layout_marginEnd="15dp"
         android:src="@drawable/logo_new_transparente"
         app:layout_constraintEnd_toEndOf="parent"

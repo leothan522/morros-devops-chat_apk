@@ -10,7 +10,7 @@ import retrofit2.http.POST
 interface RetrofitInterface {
 
     @FormUrlEncoded
-    @POST("login.php")
+    @POST("login/")
     fun login(
         @Field("email") email: String,
         @Field("password") password: String,
@@ -18,7 +18,7 @@ interface RetrofitInterface {
     ) : Call<Usuario>
 
     @FormUrlEncoded
-    @POST("register.php")
+    @POST("register/")
     fun registrarUsuario(
         @Field("name") name : String,
         @Field("email") email: String,
@@ -28,11 +28,11 @@ interface RetrofitInterface {
     ) : Call<Usuario>
 
     @FormUrlEncoded
-    @POST("recuperar.php")
+    @POST("recover/")
     fun recuperarCLave(@Field("email") email: String) : Call<RespuestaSimple>
 
     @FormUrlEncoded
-    @POST("update.php")
+    @POST("update/")
     fun actualizarUsuario(
         @Field("name") name : String,
         @Field("email") email: String,

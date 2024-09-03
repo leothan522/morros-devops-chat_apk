@@ -21,12 +21,12 @@ class Prefs( val context: Context) {
         return storage.getBoolean(SHARED_LOGIN, false)
     }
 
-    fun saveID(id:Int){
-        storage.edit().putInt(SHARED_ID, id).apply()
+    fun saveID(id:String){
+        storage.edit().putString(SHARED_ID, id).apply()
     }
 
-    fun getID():Int{
-        return storage.getInt(SHARED_ID, 0)
+    fun getID():String{
+        return storage.getString(SHARED_ID, "")!!
     }
 
     fun saveEmail(email: String){

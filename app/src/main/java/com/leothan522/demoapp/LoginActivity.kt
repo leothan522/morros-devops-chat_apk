@@ -86,7 +86,7 @@ class LoginActivity : AppCompatActivity() {
                 val resultado = response.body()
                 if (resultado?.success == true){
                     prefs.saveLogin(true)
-                    prefs.saveID(resultado.id.toInt())
+                    prefs.saveID(resultado.id.toString())
                     prefs.saveName(resultado.name.toString())
                     prefs.saveEmail(resultado.email.toString())
                     prefs.saveTelefono(resultado?.telefono.toString())

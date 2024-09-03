@@ -117,7 +117,7 @@ class RegisterActivity : AppCompatActivity() {
                 val resultado = response.body()
                 if (resultado?.success == true){
                     prefs.saveLogin(true)
-                    prefs.saveID(resultado.id.toInt())
+                    prefs.saveID(resultado.id.toString())
                     prefs.saveName(resultado.name)
                     prefs.saveEmail(resultado.email)
                     prefs.saveTelefono(resultado?.telefono.toString())

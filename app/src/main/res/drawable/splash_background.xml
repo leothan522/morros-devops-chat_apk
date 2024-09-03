@@ -2,16 +2,16 @@
 <layer-list android:opacity="opaque"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@color/azul_logo" />
+    <item android:drawable="@color/white" />
 
     <item
         android:left="0dp"
         android:right="0dp"
-        android:top="160dp"
-        android:bottom="160dp">
+        android:top="200dp"
+        android:bottom="200dp">
 
         <bitmap
-            android:src="@drawable/morros_devops_1200"/>
+            android:src="@drawable/logo_new_transparente"/>
 
     </item>
 

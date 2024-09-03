@@ -30,12 +30,12 @@
 
     <ImageView
         android:id="@+id/iv_logo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="-27dp"
-        android:layout_marginStart="-25dp"
-        android:src="@drawable/morros_devops_transparente_1200"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="65dp"
+        android:src="@drawable/logo_new_transparente"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="UseAppTint" />
 
@@ -177,7 +177,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="-25dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="10dp"
         android:backgroundTint="@color/white"
         app:cardElevation="8dp"
         app:cardCornerRadius="25dp"

@@ -7,4 +7,4 @@ Lista de tecnologías utilizadas en el proyecto:
 * [Retrofit2](https://square.github.io/retrofit/)
 * [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging?hl=es-419)
 
-### En el Servidor web **PHP y Mysql** utilizando **Laravel 10** para el Dashboard.
+### En el Servidor Web **PHP y Mysql** utilizando **Laravel ^11** para el Dashboard.

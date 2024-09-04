@@ -17,7 +17,7 @@ class SplashActivity : AppCompatActivity() {
         initUI()
     }
 
-    fun initUI(){
+    private fun initUI(){
         if (prefs.getLogin()){
             //startActivity(Intent(this, TestFirebaseActivity::class.java))
             startActivity(Intent(this, ChatActivity::class.java))

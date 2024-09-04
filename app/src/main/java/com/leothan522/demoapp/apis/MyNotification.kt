@@ -25,7 +25,8 @@ class MyNotification(private val context: Context, private val channelId: String
         title: String?,
         content: String?,
         subText: String?,
-        pendingIntent: PendingIntent
+        pendingIntent: PendingIntent,
+        text: String = "Leer más tarde"
     ) {
 
         notificationBuilder
@@ -36,11 +37,9 @@ class MyNotification(private val context: Context, private val channelId: String
             .setContentText(content)
             .setSubText(subText) // (8)
             .setAutoCancel(true)
-            .setContentIntent(pendingIntent)
-            //.addAction(R.drawable.ic_bookmark,"Leer más tarde", null) // (10)
-            .setStyle(
-                NotificationCompat.BigTextStyle()
-                    .bigText(content))
+            .setContentIntent(pendingIntent) //con app abierta funciona
+            .addAction(R.drawable.ic_bookmark,text, pendingIntent) // (10)
+            .setStyle(NotificationCompat.BigTextStyle().bigText(content))
     }
 
     fun createChannelGroup(groupId: String?, groupNameId: Int) {

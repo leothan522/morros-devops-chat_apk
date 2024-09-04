@@ -164,7 +164,7 @@ class LoginActivity : AppCompatActivity() {
 
     fun goRecuperar(View: View?){
         startActivity(Intent(this, RecuperarActivity::class.java))
-        //overridePendingTransition(R.anim.slide_in_left, R.anim.stay)
+        overridePendingTransition(R.anim.slide_in_right, R.anim.stay)
         finish()
     }
 

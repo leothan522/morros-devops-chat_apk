@@ -38,8 +38,8 @@ class TestFirebaseActivity : AppCompatActivity() {
         })
 
         binding.btnCerrar.setOnClickListener {
-            prefs.wipe()
-            startActivity(Intent(this, LoginActivity::class.java))
+            //prefs.wipe()
+            startActivity(Intent(this, SplashActivity::class.java))
             finish()
         }
 
